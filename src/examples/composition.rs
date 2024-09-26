@@ -38,10 +38,10 @@ impl Chicken {
 //Bird의 기본 속성 추가
 impl Bird for Chicken {
      fn can_fly(&self) -> bool {
-        false
+        self.bird.can_fly()
     }
     fn has_beak(&self) -> bool {
-        false
+        self.bird.has_beak()
     }
 }
 
